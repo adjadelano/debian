@@ -2,7 +2,7 @@ sudo apt install xorg bspwm rofi compton pulseaudio nitrogen build-essential git
 mkdir .local
 mkdir .local/share 
 git clone htpps://github.com/vibewill/fonts
-cp -r fonts/fonts .local/sahare
+cp -r fonts/fonts .local/share
 cp -r fonts/config .config 
 cp fonts/Xdefautls .Xdefaults 
 fc-cache -fv 
