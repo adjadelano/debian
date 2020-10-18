@@ -14,7 +14,7 @@ int main()
         switch (numero)
         {
         case 1:
-            system("sudo apt install xorg bspwm compton nitrogen vim build-essential curl rofi rxvt-unicode pulseaudio");
+            system("sudo apt install xorg bspwm compton nitrogen vim build-essential curl rofi rxvt-unicode pulseaudio git");
             system("git clone https://github.com/vibewill/fonts");
             system("cp -r fonts/config  .config");
             system("cp fonts/Xdefaults  .Xdefaults");
